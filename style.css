@@ -1,0 +1,41 @@
+h1{
+    color:mediumblue;
+}
+h2{
+    color: rgb(165, 8, 84);
+}
+body {
+    background-color:rgb(255, 236, 242);
+}
+img {
+    border: 5px solid white;    
+    border-radius: 200px
+}
+p {
+    font-family: cursive;
+    font-weight:bolder;
+    color:blueviolet;
+}
+hr{
+    height:2px;
+    width:3500px;
+    background:midnightblue;
+}
+.header {
+    background:rgb(255, 236, 242);
+}
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    background:rgb(255, 236, 242);
+    justify-content: space-between;
+}
+.footer {
+    display:flex;
+    justify-content: space-evenly;
+    background:white;
+}
+.line{
+    transform:rotate(180deg);
+}
